@@ -1,0 +1,25 @@
+.custom-offcanvas {
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  color: white;
+  width: 250px; 
+}
+
+.custom-offcanvas .nav-link {
+  color: white !important;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.custom-offcanvas .nav-link:hover {
+  color: yellow !important;
+  transform: translateX(5px);
+}
+
+.custom-offcanvas .offcanvas-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.custom-offcanvas .btn-close {
+  filter: invert(1); 
+}
